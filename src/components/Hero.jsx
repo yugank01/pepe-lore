@@ -41,7 +41,7 @@ const Hero = () => {
           </button>
           <div className="flex justify-center md:justify-start gap-4 text-xl">
             <a
-              href="https://twitter.com"
+              href="https://x.com/pepeloretoken"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-black p-2 rounded-lg"
@@ -49,7 +49,7 @@ const Hero = () => {
               <FaXTwitter />
             </a>
             <a
-              href="https://t.me"
+              href="https://t.me/PepeLoreToken"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-black rounded-lg p-2"
@@ -62,7 +62,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="bg-black rounded-lg p-2"
             >
-              <img src={dex} alt="screener" />
+              <img src={dex} alt="screener" className="h-5 w-5" />
             </a> */}
           </div>
         </div>

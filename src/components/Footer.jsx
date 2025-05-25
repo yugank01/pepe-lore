@@ -33,7 +33,7 @@ const Footer = () => {
             <h3 className="text-yellow-400 font-bold mb-1">SOCIALS</h3>
             <div className="flex items-center gap-3 text-2xl">
               <a
-                href="https://twitter.com"
+                href="https://x.com/pepeloretoken"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-yellow-500"
@@ -41,7 +41,7 @@ const Footer = () => {
                 <FaXTwitter />
               </a>
               <a
-                href="https://t.me"
+                href="https://t.me/PepeLoreToken"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-yellow-500"

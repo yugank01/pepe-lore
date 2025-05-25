@@ -38,7 +38,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href="https://x.com"
+            href="https://x.com/pepeloretoken"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg hover:text-lime-400"
@@ -46,7 +46,7 @@ const Navbar = () => {
             <FaXTwitter />
           </a>
           <a
-            href="https://t.me"
+            href="https://t.me/PepeLoreToken"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg hover:text-lime-400"
@@ -54,7 +54,7 @@ const Navbar = () => {
             <FaTelegramPlane />
           </a>
           <a
-            href="https://t.me"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg hover:text-lime-400"
@@ -89,7 +89,7 @@ const Navbar = () => {
 
           <div className="flex space-x-4 pt-2">
             <a
-              href="https://x.com"
+              href="https://x.com/pepeloretoken"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg hover:text-lime-400"
@@ -97,7 +97,7 @@ const Navbar = () => {
               <FaXTwitter />
             </a>
             <a
-              href="https://t.me"
+              href="https://t.me/PepeLoreToken"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg hover:text-lime-400"
