@@ -9,7 +9,7 @@ const Tokenomics = () => {
   };
 
   return (
-    <div className="max-w-5xl mx-auto bg-white border-4 border-black rounded-md shadow-lg">
+    <section id="tokenomics" className="max-w-5xl mx-auto bg-white border-4 border-black rounded-md shadow-lg">
       {/* Title */}
       <div className="relative -top-6 flex justify-center">
         <div className="bg-black text-white px-6 py-2 text-3xl sm:text-5xl font-extrabold rotate-[-2deg] shadow-lime-400 shadow-md">
@@ -72,7 +72,7 @@ const Tokenomics = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,8 +1,8 @@
 import React from "react";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
-import pepelore from "../assets/pepelore.svg"
-import dex from "../assets/dex.png"
+import pepelore from "../assets/pepelore.svg";
+import dex from "../assets/dex.png";
 
 const Footer = () => {
   return (
@@ -23,9 +23,15 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:items-center gap-6">
           {/* Navigation Links */}
           <ul className="space-y-1 text-sm">
-            <li className="hover:text-yellow-500 cursor-pointer">About</li>
-            <li className="hover:text-yellow-500 cursor-pointer">Lore</li>
-            <li className="hover:text-yellow-500 cursor-pointer">Tokenomics</li>
+            <li className="hover:text-yellow-500 cursor-pointer">
+              <a href="#about">About</a>
+            </li>
+            <li className="hover:text-yellow-500 cursor-pointer">
+              <a href="#lore">Lore</a>
+            </li>
+            <li className="hover:text-yellow-500 cursor-pointer">
+              <a href="#tokenomics">Tokenomics</a>
+            </li>
           </ul>
 
           {/* Social Icons */}

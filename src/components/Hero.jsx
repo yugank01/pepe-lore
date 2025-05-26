@@ -2,6 +2,7 @@ import React from "react";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import pepelore from "../assets/pepelore.svg";
+import hero from "../assets/pepe-hero.png";
 // import dex from "../assets/dex.png";
 
 const Hero = () => {
@@ -13,7 +14,12 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero flex items-center justify-end px-6 md:px-16 text-white">
+    <section id="about" className="hero flex flex-col-reverse md:flex-row md:items-center md:justify-end px-6 md:px-16 pt-10 text-white">
+      {/* Left side Content */}
+      <div className="w-full md:w-1/2 flex md:hidden justify-center items-end pt-8 md:pt-0">
+        <img src={hero} alt="Pepe" className="" />
+      </div>
+
       {/* Right Side Content */}
       <div className="w-full md:w-[40%] md:text-left space-y-6 flex flex-col justify-center">
         <img src={pepelore} alt="PEPE LORE" className="" />
@@ -67,7 +73,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

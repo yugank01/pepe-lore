@@ -1,8 +1,11 @@
 .hero {
-  background-image: url("./assets/Background.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 90vh;
-  width: 100%;
+  @apply bg-no-repeat bg-cover bg-center min-h-screen w-full;
+
+  background-image: url("./assets/Background.jpg");
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url("./assets/Background.svg"); /* Desktop */
+  }
 }

@@ -5,7 +5,7 @@ import pepe3 from "../assets/pepe3.svg";
 
 const PepeLore = () => {
   return (
-    <section className="bg-[#0d1126] text-white px-6 py-16 text-center">
+    <section id="lore" className="bg-[#0d1126] text-white px-6 py-16 text-center">
       <div className="max-w-5xl mx-auto">
         {/* Title */}
         <h1 className="text-4xl md:text-9xl font-extrabold mb-4">PEPE LORE</h1>
